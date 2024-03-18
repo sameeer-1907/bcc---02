@@ -1,0 +1,239 @@
+body{
+    background-image: url(./images/bg_top_01.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-color:#00294a;
+    font-family: 'Cabin', sans-serif;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+    background-image: url(./images/bg_top_01.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(0px);
+    filter:brightness(70%);
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark{
+    background-color: rgba(3, 27, 50, 0.9) !important;
+    padding-right: 1rem;
+}
+
+a.navbar-brand{
+    font-size: x-large;
+}
+
+a.nav-link{
+    font-size: large;
+}
+
+a.nav-link.active{
+    color:white;
+}
+
+div.container.px-4.py-4.mx-auto{
+    margin-top:1rem;
+}
+
+a.btn.btn-secondary.dropdown-toggle.nav-link{
+    background-color: transparent ;
+}
+
+ul.dropdown-menu.show{
+    background-color: rgba(3, 27, 50, 0.9);
+}
+
+a.dropdown-item{
+    color:white;
+}
+
+header.d-flex.flex-wrap.align-items-center.justify-content-center.justify-content-md-between.py-3.mb-4.border-bottom.fixed-top{
+    background-color: rgba(3, 27, 50, 0.9) !important;
+    padding-right: 1rem;
+}
+
+header.border-bottom{
+    border-bottom: none !important;
+}
+
+div.p-4.p-md-5.mb-4.rounded.text-body-emphasis.bg-body-secondary{
+    padding-top: 2rem;
+}
+
+div.px-4.pt-5.my-5.text-center.border-bottom{
+    color:white;
+}
+
+h1.display-4.fw-bold.text-body-emphasis{
+    color: white !important;
+}
+
+div.container-xl{
+    background-color: #78263b !important;
+}
+
+
+svg.bi.bi-box-seam{
+    background-color: aliceblue;
+}
+
+span.fs-4{
+    color:White;
+}
+
+a.nav-link.px-2{
+    color:White !important;
+    font-size: large;
+}
+
+a.nav-link.px-2:hover{
+    color:#e4195e !important;
+    font-size: large;
+}
+
+a.nav-link.active.px-2{
+    color:rgb(55, 218, 255) !important;
+    font-weight:bolder;
+}
+
+
+li.dropdown-menu{
+    background-color: rgb(97, 107, 141);
+}
+
+a.dropdown-item:hover{
+    background-color: rgba(89, 116, 143,0.7);
+}
+
+div.container.px-4.py-5{
+    margin-top:7rem;
+    width:80%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+h2.pb-2.border-bottom{
+    color:white;
+}
+
+h2.fw-bold.text-body-emphasis{
+    color:white !important;
+}
+
+p.text-body-secondary{
+    color:white !important;
+}
+
+
+div.navbar.navbar-dark.bg-dark.shadow-sm{
+    background-color: rgba(3, 27, 50, 0.9) !important;
+    width:90%;
+    border:none;
+    border-radius: 15%;
+}
+
+a.btn.btn-lg{
+    color:black;
+    background-color: rgb(91, 118, 143);
+}
+a.btn.btn-lg:hover{
+    color:White;
+    background-color: rgb(120, 38, 59);
+}
+
+h4.fw-semibold.mb-0.text-body-emphasis{
+    color:white !important;
+}
+
+.card{
+    background: linear-gradient(to bottom right, rgba(24, 104, 136,0.2), rgba(140, 22, 180,0.2));
+    background-color: transparent !important;
+    position: relative;
+    overflow: hidden;
+    border:none;
+    border-radius:3%;
+}
+
+div.card.sahdow-sm{
+    background-image: url(./images/bg_top_01.jpg);
+}
+
+img.img-fluid.d-block.mx-auto{
+    border:none;
+    border-radius: 50%;
+}
+
+.card-body{
+    color:white !important;
+}
+p.card-text{
+    color:aliceblue !important;
+} 
+
+small.text-body-secondary{
+    color:aliceblue !important;
+}
+
+button.btn.btn-sm.btn-outline-secondary{
+    background-color: transparent;
+    color:white;
+}
+
+button.btn.btn-sm.btn-outline-secondary:hover{
+    background-color: rgb(91, 118, 143);
+}
+
+svg{
+    color:white;
+}
+
+svg:hover{
+    color:#78263b;
+}
+
+.card .btn-group,
+.card small{
+    visibility: hidden;
+    opacity:0;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.card:hover .btn-group,
+.card:hover small{
+    visibility: visible;
+    opacity:1;
+}
+
+a.link{
+    text-decoration: none;
+    color:white;
+}
+
+span.mb-md-0.text-body-secondary{
+    color:white !important;
+    font-size: large;
+    
+}
+
+@media only screen and (max-width: 991px) {
+    a.btn.btn-secondary.dropdown-toggle.nav-link{
+        background-color: transparent ;
+        display: flex;
+        justify-content: left;
+    }
+  }
+
+
+
+
+ 
+  
+  

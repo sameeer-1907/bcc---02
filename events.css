@@ -1,0 +1,76 @@
+body{
+    background-image: url(./images/bg_top_01.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-color:#00294a;
+    font-family: 'Cabin', sans-serif;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+    background-image: url(./images/bg_top_01.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(0px);
+    filter:brightness(50%);
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark{
+    background-color: rgba(3, 27, 50, 0.9) !important;
+    padding-right: 1rem;
+}
+
+a.navbar-brand{
+    font-size: x-large;
+}
+
+a.nav-link{
+    font-size: large;
+    color:#586f8f
+}
+
+div.col.event{
+    height:30vh;
+}
+
+span.mb-md-0.text-body-secondary{
+    color:white !important;
+    font-size: large;
+}
+
+h3.pb-2.border-bottom{
+    color:white;
+}
+
+small{
+    color:white;
+    background-color: rgb(120, 38, 59);
+    border:none;
+    border-radius: 15%;
+    padding:0.3rem;
+}
+
+div.card.mb-3{
+    background-color: transparent;
+    border: none;
+    color:white !important;
+}
+
+h5.card-title{
+    font-weight: bolder;
+}
+
+svg.bi{
+    color:rgb(175, 218, 255) !important;
+}
+
+svg.bi:hover{
+    color:rgb(120, 38, 59) !important;
+}
